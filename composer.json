@@ -1,0 +1,32 @@
+{
+    "name": "ricardo1709/collection",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^0.12.99",
+        "squizlabs/php_codesniffer": "3.*",
+        "r2h/r2h-coding-standard": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Ricardo van Bree",
+            "email": "ricardovbree@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ricardo1709\\Collection\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ricardo1709\\Collection\\Tests\\": "tests/"
+        }
+    }
+}
